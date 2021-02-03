@@ -37,7 +37,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         mMap.addMarker(new MarkerOptions()
                 .position(m1)
-                .rotation(90)
+                .zIndex(1.0f)
+               // .rotation(90)
                 //.icon(BitmapDescriptorFactory.fromResource(R.drawable.girl))
                 //visible(false)
                 //.snippet("Welcome to our channel")
